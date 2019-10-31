@@ -1,0 +1,16 @@
+可能出现的问题及解决
+xxx cannot be resolved to a type 
+	可能是未导入该包，在顶端import该包
+	也可能是java包缺失
+	
+Illegal modifier for parameter xx; only final is permitted
+	原因是用了public，private，static等修饰词去修饰方法内部变量，然而在java类的方法里声明变量时，
+	只能用final修饰(only final is permitted)（或者不加修饰）。除此之外不能用其他的修饰符修饰，包
+	括static也会报同样的错误。public，private等是声明作用域的。方法内部定义的变量（只能在方法内部
+	使用），在里面声明作用域无意义，也禁止声明。
+	
+'for each' statements are only available if source level is 1.5 or greater
+	project->propreties->Java compiler->compiler compliance level->1.5以上
+	
+The local variable date may not have been initialized
+	给变量定义一个初始值即可
