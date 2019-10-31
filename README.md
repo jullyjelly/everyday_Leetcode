@@ -12,8 +12,8 @@
 	
 3.链接：https://leetcode-cn.com/problems/largest-1-bordered-square
 
-	给你一个由若干 0 和 1 组成的二维网格 grid，请你找出边界全部由 1 组成的最大 正方形 子网格，并返回该子网格中的
-	元素数量。如果不存在，则返回 0。
+	给你一个由若干0和1组成的二维网格 grid请你找出边界全部由1组成的最大正方形子网格，并返回该子网格中的元素数量。
+	如果不存在，则返回 、0。
 
 4.链接：https://www.nowcoder.com/practice/72a5a919508a4251859fb2cfb987a0e6?tpId=13&tqId=11163&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking
 
